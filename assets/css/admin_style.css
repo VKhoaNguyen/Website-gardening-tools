@@ -1,0 +1,41 @@
+/* =========================================
+   STYLE DÀNH RIÊNG CHO KHU VỰC ADMIN PANEL
+   ========================================= */
+
+body { 
+    background-color: #f4f6f9; 
+    overflow-x: hidden; 
+}
+
+/* Thanh menu bên trái (Sidebar) */
+.sidebar { 
+    min-height: 100vh; 
+    background-color: #1E293B; /* Đổi màu xanh tại đây nếu muốn */
+    color: white; 
+}
+
+.sidebar a { 
+    color: rgba(255,255,255,0.8); 
+    text-decoration: none; 
+    padding: 12px 20px; 
+    display: block; 
+    transition: all 0.3s;
+}
+
+.sidebar a:hover, 
+.sidebar a.active { 
+    background-color: rgba(255,255,255,0.1); 
+    color: white; 
+    border-left: 4px solid #fff; 
+}
+
+/* Thanh trên cùng (Topbar) */
+.topbar { 
+    background-color: #fff; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08); 
+}
+
+/* Khu vực nội dung */
+.content { 
+    padding: 20px; 
+}
